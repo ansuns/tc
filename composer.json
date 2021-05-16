@@ -15,5 +15,10 @@
             "email": "251024883@qq.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Ansuns\\": "src/"
+        }
+    }
 }
